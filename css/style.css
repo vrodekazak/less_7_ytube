@@ -1,0 +1,108 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html {
+	font-size: 14px;
+	font-family: 'Arial';
+	color: #333;
+}
+
+body {
+
+	line-height: 1;
+}
+
+* {
+	line-height: 25px;
+}
+
+.divwidth {
+	max-width: 619px;
+	margin: 0px 0px 33px 0px;
+}
+
+.span_block {
+	display: block;
+}
+
+.link {
+	display: inline-block;
+	margin: 0px 0px 32px 0px;
+}
+
+.div_padd_down {
+	border: 1px solid #333;
+	max-width: 800px;
+	padding: 0px 0px 30px 0px;
+	margin: 0px 0px 34px 0px;
+}
+
+.div_inline {
+	border: 1px solid #333;
+	display: inline-block;
+	margin: 0px 41px 0px 0px;
+
+
+}
+
+.p_inline {
+	display: inline-block;
+	border: 1px solid #333;
+	margin: 0px 0px 35px 0px;
+}
+
+.span_padding_left_right {
+	display: inline-block;
+	border: 1px solid #333;
+	padding: 0px 60px 0px 60px;
+	max-width: 300px;
+	margin: 0px 30px 41px 0px;
+}
+
+.span_padding_up_down {
+	display: inline-block;
+	border: 1px solid #333;
+	padding: 25px 0px 25px 0px;
+}
+
+.link_padd_right {
+	display: inline-block;
+}
+
+.name {
+	color: rgb(43, 223, 73);
+	font-size: 20px;
+}
